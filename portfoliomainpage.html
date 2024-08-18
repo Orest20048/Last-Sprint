@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-QEr84uXmD/BP2Dx9kFqTzDO+LpKFl8H8Lc7zT6bF4dtZ5xAXkfuHmSJeqmxSvKg0mN8TvhcB2zwodtLb72hU3A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Orest,</span><br> Demchuk from Ukraine</h1>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+    
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit a rem ab accusantium tenetur facere non magni, corporis adipisci nemo quis voluptatem, repellendus soluta beatae dolores quo excepturi quaerat asperiores.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Designing App/Web Interfaces/Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July 2024 - Current</span><br>Internship in Atlantiq AI as Software Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>September 2022 - December 2022</span><br>Coding for Success</li>
+                            <li><span>January 2023 - June 2023 </span><br>The extended version of "Coding for Success"</li>
+                            <li><span>January 2024 - Till Now</span><br>Keyin College - Software Development Faculty </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>As a web designer, I specialize in crafting visually engaging and functional websites. My approach involves creating unique and responsive designs that enhance user experience while aligning with brand identity. From layout to color schemes and typography, I focus on delivering a cohesive and attractive online presence.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>In UI/UX Design, I excel at optimizing the user interface and experience of digital products. My work ensures that interfaces are not only visually appealing but also intuitive and user-friendly. By carefully considering user interactions and feedback, I create designs that provide a seamless and enjoyable experience, tailored to meet user needs and preferences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>As an app designer, I focus on developing engaging and functional mobile and desktop applications. My design process emphasizes creating intuitive interfaces and responsive layouts that ensure a smooth user experience across various devices. By blending aesthetic appeal with usability, I strive to deliver applications that captivate users and drive positive interactions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="Work 1">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to talented people around the world. Download it from play store.</p>
+                        <a href="#">Visit</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="Work 2">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to talented people around the world.</p>
+                        <a href="#">Visit</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="Work 3">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to talented people around the world. Download it from play store.</p>
+                        <a href="#">Visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="contact-info">
+                        <p>orest04.0604.67@gmail.com</p>
+                        <p>7093510366</p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="Ostap%20Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var tablinks = document.querySelectorAll('.tab-links');
+        var tabcontents = document.querySelectorAll('.tab-contents');
+
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active-tab");
+            }
+
+            var tab = document.getElementById(tabname);
+            if (tab) {
+                tab.classList.add("active-tab");
+            }
+
+            var activeLink = document.querySelector('.tab-links.active-link');
+            if (activeLink) {
+                activeLink.classList.remove('active-link');
+            }
+
+            var clickedLink = document.querySelector('.tab-links[data-tab="' + tabname + '"]');
+            if (clickedLink) {
+                clickedLink.classList.add('active-link');
+            }
+        }
+    </script>
+</body>
+</html>
